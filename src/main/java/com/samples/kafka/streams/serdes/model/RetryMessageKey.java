@@ -3,7 +3,6 @@ package com.samples.kafka.streams.serdes.model;
 
 public class RetryMessageKey {
 
-    //TODO : make one property of 2.4.0 of kafka-streams/kafka-clients
     private String entity;
     private String entityId;
 
