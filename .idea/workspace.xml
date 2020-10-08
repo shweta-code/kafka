@@ -1,159 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3ce9f7e0-67a5-49d4-b9d2-49902b664ab9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/kafka/Pipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pipe.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/wordcountdemo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ingester-item/src/main/resources/environmentConfig/walmart-pipeline-auditor/local/ica-inbound-processor.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ingester-item/src/main/resources/environmentConfig/walmart-pipeline-auditor/local/ica-inbound-processor.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/branch/Branch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/branch/Branching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/branch/BranchingProcessorSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/branch/BranchingSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/GroupingProcessorSupplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/RetryMessageKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/RetryMessageValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/StateStoreNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/StoreBuilderProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/TransformingProcessorSuppler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/WindowAggregateStoreBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/processorApi/window/Windowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/serdes/JsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/serdes/JsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/serdes/SerdeRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/serdes/WrapperSerde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/streamsDsl/Branching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/streamsDsl/Windowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/utils/DSLBranchingProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/utils/DSLWindowingProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/utils/ProcessorBranchingProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/utils/ProcessorWindowingProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dsl-branch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/dsl-window.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/process-branch.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/process-window.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/samples/kafka/streams/streamsDsl/BranchingProcessorSupplierTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/kafka/Pipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/pipe/Pipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/kafka/WordCountDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/wordcount/WordCountDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wordcountdemo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wordcountdemo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/kafka.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/kafka/Pipe$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/kafka/Pipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/kafka/WordCountDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/practice/kafka/WordCountDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wordcountdemo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wordcountdemo.sh" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1680328340">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="9" />
-          <entry key="java" value="116" />
-          <entry key="sh" value="88" />
-          <entry key="xml" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="116" />
-          <entry key="PLAIN_TEXT" value="97" />
-          <entry key="XML" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="7" />
-          <entry key="sh" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="7" />
-          <entry key="PLAIN_TEXT" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/kafka/WordCountDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="70" column="93" lean-forward="true" selection-start-line="70" selection-start-column="93" selection-end-line="70" selection-end-column="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/kstream/KStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3540">
-              <caret line="265" column="24" selection-start-line="265" selection-start-column="24" selection-end-line="265" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2655">
-              <caret line="205" column="16" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/kafka/Pipe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pipe.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/kstream/KTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33630">
-              <caret line="2272" column="39" selection-start-line="2272" selection-start-column="39" selection-end-line="2272" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/StreamsBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/Consumed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/wordcountdemo.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,25 +80,6 @@
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/practice/kafka/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/practice/kafka/WordCount.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/practice/kafka/Pipe.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/wordcountdemo.sh" />
-        <option value="$PROJECT_DIR$/src/main/resources/pipe.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/com/practice/kafka/WordCountDemo.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -197,6 +93,7 @@
     <option name="width" value="1680" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectId" id="1iV1Fj1VEkRfJac8MFsqL8INZIW" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -272,86 +169,51 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582539167946" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/integrationTest" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/samples/kafka" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.samples.kafka.streams.streamsDsl" />
+      <recent name="com.samples.kafka.streams.utils" />
+      <recent name="com.samples.kafka.processorApi.window" />
+      <recent name="com.samples.kafka.utils" />
+      <recent name="com.samples.kafka.processorApi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/samples/kafka/streams/utils" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/samples/kafka/processorApi/branch" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WordCountDemo">
-    <configuration name="Pipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.kafka.Pipe" />
+  <component name="RunManager" selected="JUnit.BranchingTest.happyPathItem">
+    <configuration name="Branching (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samples.kafka.streams.processorApi.branch.Branching" />
       <module name="kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.kafka.*" />
+          <option name="PATTERN" value="com.samples.kafka.streams.processorApi.branch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.kafka.WordCount" />
+    <configuration name="ProcessorWindowingProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="integrationTest.ProcessorWindowingProducer" />
       <module name="kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.kafka.*" />
+          <option name="PATTERN" value="integrationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,29 +234,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.kafka.WordCountDemo" />
+    <configuration name="Windowing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samples.kafka.streams.processorApi.window.Windowing" />
       <module name="kafka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.kafka.*" />
+          <option name="PATTERN" value="com.samples.kafka.streams.serdes.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BranchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samples.kafka.streams.streamsDsl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.samples.kafka.streams.streamsDsl" />
+      <option name="MAIN_CLASS_NAME" value="com.samples.kafka.streams.streamsDsl.BranchingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BranchingTest.happyPathItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samples.kafka.streams.streamsDsl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.samples.kafka.streams.streamsDsl" />
+      <option name="MAIN_CLASS_NAME" value="com.samples.kafka.streams.streamsDsl.BranchingTest" />
+      <option name="METHOD_NAME" value="happyPathItem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WordCount" />
-      <item itemvalue="Application.WordCountDemo" />
-      <item itemvalue="Application.Pipe" />
+      <item itemvalue="Application.Branching (1)" />
+      <item itemvalue="Application.ProcessorWindowingProducer" />
+      <item itemvalue="Application.Windowing" />
+      <item itemvalue="JUnit.BranchingTest" />
+      <item itemvalue="JUnit.BranchingTest.happyPathItem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCountDemo" />
-        <item itemvalue="Application.Pipe" />
-        <item itemvalue="Application.WordCount" />
+        <item itemvalue="JUnit.BranchingTest.happyPathItem" />
+        <item itemvalue="JUnit.BranchingTest" />
+        <item itemvalue="Application.Windowing" />
+        <item itemvalue="Application.ProcessorWindowingProducer" />
+        <item itemvalue="Application.Branching (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -420,144 +317,114 @@
       <workItem from="1582389413033" duration="1788000" />
       <workItem from="1582467655709" duration="3918000" />
       <workItem from="1582521123561" duration="5124000" />
+      <workItem from="1601977845302" duration="2994000" />
+      <workItem from="1601983501055" duration="725000" />
+      <workItem from="1601984700731" duration="131000" />
+      <workItem from="1601984854547" duration="153000" />
+      <workItem from="1601985026696" duration="239000" />
+      <workItem from="1601985289816" duration="2787000" />
+      <workItem from="1602053764499" duration="3663000" />
+      <workItem from="1602057643546" duration="2435000" />
+      <workItem from="1602152355167" duration="4332000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15597000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40255222" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32946634" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/kstream/KStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3540">
-          <caret line="265" column="24" selection-start-line="265" selection-start-column="24" selection-end-line="265" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Runtime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2655">
-          <caret line="205" column="16" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/kstream/KTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33630">
-          <caret line="2272" column="39" selection-start-line="2272" selection-start-column="39" selection-end-line="2272" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/StreamsBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-streams/1.0.1/kafka-streams-1.0.1-sources.jar!/org/apache/kafka/streams/Consumed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/kafka/Pipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wordcountdemo.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/pipe.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/kafka/WordCountDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="70" column="93" lean-forward="true" selection-start-line="70" selection-start-column="93" selection-end-line="70" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="496" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1602054927371">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="496" y="81" key="#com.intellij.ide.util.MemberChooser/0.23.1366.689@0.23.1366.689" timestamp="1602054927371" />
+    <state x="421" y="155" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602053615470">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="421" y="155" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1366.689@0.23.1366.689" timestamp="1602053615470" />
+    <state x="540" y="189" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602053864594">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="540" y="189" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1366.689@0.23.1366.689" timestamp="1602053864594" />
+    <state x="422" y="269" width="762" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602053865756">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="422" y="269" width="762" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1366.689@0.23.1366.689" timestamp="1602053865756" />
+    <state width="1324" height="167" key="GridCell.Tab.0.bottom" timestamp="1602157752350">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="168" key="GridCell.Tab.0.bottom/0.23.1366.689@0.23.1366.689" timestamp="1602056562525" />
+    <state width="1324" height="167" key="GridCell.Tab.0.bottom/0.23.1366.691@0.23.1366.691" timestamp="1602157752350" />
+    <state width="1324" height="212" key="GridCell.Tab.0.bottom/0.23.1366.692@0.23.1366.692" timestamp="1602063261374" />
+    <state width="1324" height="167" key="GridCell.Tab.0.center" timestamp="1602157752349">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="168" key="GridCell.Tab.0.center/0.23.1366.689@0.23.1366.689" timestamp="1602056562524" />
+    <state width="1324" height="167" key="GridCell.Tab.0.center/0.23.1366.691@0.23.1366.691" timestamp="1602157752349" />
+    <state width="1324" height="212" key="GridCell.Tab.0.center/0.23.1366.692@0.23.1366.692" timestamp="1602063261373" />
+    <state width="1324" height="167" key="GridCell.Tab.0.left" timestamp="1602157752349">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="168" key="GridCell.Tab.0.left/0.23.1366.689@0.23.1366.689" timestamp="1602056562523" />
+    <state width="1324" height="167" key="GridCell.Tab.0.left/0.23.1366.691@0.23.1366.691" timestamp="1602157752349" />
+    <state width="1324" height="212" key="GridCell.Tab.0.left/0.23.1366.692@0.23.1366.692" timestamp="1602063261372" />
+    <state width="1324" height="167" key="GridCell.Tab.0.right" timestamp="1602157752350">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state width="1324" height="168" key="GridCell.Tab.0.right/0.23.1366.689@0.23.1366.689" timestamp="1602056562524" />
+    <state width="1324" height="167" key="GridCell.Tab.0.right/0.23.1366.691@0.23.1366.691" timestamp="1602157752350" />
+    <state width="1324" height="212" key="GridCell.Tab.0.right/0.23.1366.692@0.23.1366.692" timestamp="1602063261373" />
+    <state width="1324" height="212" key="GridCell.Tab.1.bottom" timestamp="1602063261375">
+      <screen x="0" y="23" width="1366" height="692" />
+    </state>
+    <state width="1324" height="212" key="GridCell.Tab.1.bottom/0.23.1366.692@0.23.1366.692" timestamp="1602063261375" />
+    <state width="1324" height="212" key="GridCell.Tab.1.center" timestamp="1602063261374">
+      <screen x="0" y="23" width="1366" height="692" />
+    </state>
+    <state width="1324" height="212" key="GridCell.Tab.1.center/0.23.1366.692@0.23.1366.692" timestamp="1602063261374" />
+    <state width="1324" height="212" key="GridCell.Tab.1.left" timestamp="1602063261374">
+      <screen x="0" y="23" width="1366" height="692" />
+    </state>
+    <state width="1324" height="212" key="GridCell.Tab.1.left/0.23.1366.692@0.23.1366.692" timestamp="1602063261374" />
+    <state width="1324" height="212" key="GridCell.Tab.1.right" timestamp="1602063261375">
+      <screen x="0" y="23" width="1366" height="692" />
+    </state>
+    <state width="1324" height="212" key="GridCell.Tab.1.right/0.23.1366.692@0.23.1366.692" timestamp="1602063261375" />
+    <state x="221" y="29" key="Maven.ArtifactSearchDialog" timestamp="1602054133018">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="221" y="29" key="Maven.ArtifactSearchDialog/0.23.1366.689@0.23.1366.689" timestamp="1602054133018" />
+    <state x="192" y="23" key="SettingsEditor" timestamp="1601985505614">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state x="192" y="23" key="SettingsEditor/0.23.1366.689@0.23.1366.689" timestamp="1601985505614" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1601984388854">
+      <screen x="0" y="23" width="1366" height="689" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1366.689@0.23.1366.689" timestamp="1601984388854" />
+    <state x="421" y="112" key="extract.method.dialog" timestamp="1602156225905">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="421" y="112" key="extract.method.dialog/0.23.1366.691@0.23.1366.691" timestamp="1602156225905" />
+    <state x="348" y="164" key="run.anything.popup" timestamp="1602057396264">
+      <screen x="0" y="23" width="1366" height="691" />
+    </state>
+    <state x="348" y="164" key="run.anything.popup/0.23.1366.691@0.23.1366.691" timestamp="1602057396264" />
+    <state x="348" y="36" width="670" height="679" key="search.everywhere.popup" timestamp="1602063715831">
+      <screen x="0" y="23" width="1366" height="692" />
+    </state>
+    <state x="348" y="36" width="670" height="676" key="search.everywhere.popup/0.23.1366.689@0.23.1366.689" timestamp="1601982226281" />
+    <state x="348" y="36" width="670" height="679" key="search.everywhere.popup/0.23.1366.692@0.23.1366.692" timestamp="1602063715831" />
   </component>
 </project>

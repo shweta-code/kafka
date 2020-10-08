@@ -10,10 +10,6 @@ bin/kafka-topics.sh --create \
     --partitions 1 \
     --topic streams-wordcount-output \
     --config cleanup.policy=compact
-#bin/kafka-topics.sh --list --zookeeper 0.0.0.0:2181
-#bin/kafka-topics.sh --delete --zookeeper 0.0.0.0:2181 --topic streams-pipe-output
-#bin/kafka-topics.sh --delete --zookeeper 0.0.0.0:2181 --topic streams-plaintext-input
-
 
 
 bin/kafka-console-producer.sh --broker-list 0.0.0.0:9092 --topic streams-plaintext-input
